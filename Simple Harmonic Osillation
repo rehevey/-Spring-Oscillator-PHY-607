@@ -1,0 +1,21 @@
+Simple Harmocis Osillation (SHO) has a cosine function : x(t) = A cos(wt + phase shift) 
+
+Wave function: y(x,t) = A sin(kx - wt + phase shift)
+
+A is amplitude, w is angular frequency, T is period, and f is frequency
+
+k = 2(pi)/(lambda)
+w = 2(pi)f = (2(pi))/T
+f = 1/T
+
+All wave functions obey: (d^2 y)/(d x^2) = 1/(v^2) * (d^2 y)/(d t^2) 
+  Second order partial differential equation 
+
+Take the derivative of the positon function , x(t), to get the velocity function (derivative with respect to t)
+  v(t) = A(-sin(wt + phase shift)) (w) = -A w sin(wt + phase shift)
+
+Take the derivative of the velocity function , v(t), to get the acceleration function (derivative with respect to t)
+  a(t) = (-A w) cos(wt + phase shift) * (w) = -A(w^2) cos(wt + phase shift)
+
+Force for a spring: F = -k x(t) 
+                    F = ma  so -k x(t) = m a(t) 
