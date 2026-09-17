@@ -19,3 +19,10 @@ Take the derivative of the velocity function , v(t), to get the acceleration fun
 
 Force for a spring: F = -k x(t) 
                     F = ma  so -k x(t) = m a(t) 
+
+
+As you stretch a spring by distance x, the froce required is represented by the function F(x) = kx. 
+The total work done is the inegration of force over distance.
+  W = integral (top bound x and botton bound 0) kx' dx' 
+
+Energy of the system: ME = KE + PE = 1/2 mv^2 + 1/2 kx^2
